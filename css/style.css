@@ -1,5 +1,6 @@
 * {
     font-family: 'JetBrains Mono', monospace;
+    transition: all 0.2s ease-in-out;
 }
 
 body {
@@ -35,6 +36,10 @@ a {
     height: 40px;
     border-radius: 0.3rem;
     margin-right: 8px;
+}
+
+.company-logo:hover {
+    transform: rotate(-5deg) scale(1.05);
 }
 
 .company-name {
