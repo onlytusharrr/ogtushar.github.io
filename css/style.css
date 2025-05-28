@@ -4,26 +4,12 @@
 
 body {
     max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 0 auto;
     padding: 2rem;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 2rem;
-}
-
-.nav-links {
-    display: flex;
-}
-
-.nav-links-separator {
-    padding: 0 6px;
 }
 
 a {
@@ -40,8 +26,32 @@ a {
     border-radius: 0.5rem;
 }
 
-.flex {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+.company {
+    margin-bottom: 24px;
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.3rem;
+    margin-right: 8px;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.company-role {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.company-duration {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.company-location {
+    font-size: 0.9rem;
+    color: #666;
 }

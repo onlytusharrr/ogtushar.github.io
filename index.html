@@ -1,48 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tushar Ghige</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/utility.css" />
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+</head>
 
-  <body>
-    <nav>
-      <a href="/index.html">tg</a>
-      <div class="nav-links">
-        <a href="#work">work</a>
-        <!-- <span class="nav-links-separator">/</span> -->
-      </div>
-    </nav>
-    <header>
-      <p style="color: #097500">👉 Open to opportunities</p>
-      <h2>Hello, I'm Tushar, engineer, builder</h2>
-      <p>
-        Software Engineer based out of Bangalore with
-        <strong>3 years</strong> of experience, currently
-        <strong>building pixel perfect ui experiences at Alaan.</strong>
-      </p>
-      <br />
-      <div class="flex">
-        <a class="button" href="#">Download Resume</a>
-        <div class="flex" style="margin-left: 1rem">
-          <a href="mailto:ghigetushar@gmail.com" target="_blank">email</a>
-          <span class="nav-links-separator">/</span>
-          <a href="https://github.com/onlytusharrr" target="_blank">github</a>
-          <span class="nav-links-separator">/</span>
-          <a href="https://x.com/1xtushar" target="_blank">twitter</a>
+<body class="flex-col">
+
+    <!-- Navbar -->
+    <nav class="flex-row justify-between items-center">
+        <a href="/index.html">🐱tushar</a>
+        <div>
+            <a href="#work">apps</a>
+            <span>/</span>
+            <a href="#work">work</a>
         </div>
-      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <p style="color: #097500">👉 Open to opportunities</p>
+        <h2>Hello, I'm Tushar, engineer, builder</h2>
+        <p>
+            Software Engineer based out of Bangalore with
+            <strong>3+ years</strong> of experience, currently
+            <strong>building UAE's #1 Corporate Spend Management platform at Alaan.</strong>
+        </p>
+        <br />
+        <div class="flex-row items-center">
+            <a class="button" href="#">Download Resume</a>
+            <div class="row" style="margin-left: 1rem">
+                <a href="mailto:ghigetushar@gmail.com" target="_blank">email</a>
+                <span>/</span>
+                <a href="https://github.com/onlytusharrr" target="_blank">github</a>
+                <span>/</span>
+                <a href="https://x.com/1xtushar" target="_blank">x</a>
+                <span>/</span>
+                <a href="https://www.linkedin.com/in/onlytushar" target="_blank">linkedin</a>
+            </div>
+        </div>
+        <div style="height: 24px"></div>
     </header>
-    <hr />
-    <main></main>
+
+    <!-- Main Content -->
+    <main>
+        <div style="height: 24px"></div>
+
+        <!-- Apps -->
+        <!-- <section class="flex-col" id="apps">
+            <div style="font-size: 1.5rem; margin-bottom: 32px">📱</div>
+            <div class="app">
+
+            </div>
+        </section> -->
+
+        <!-- Work -->
+        <section class="flex-col" id="work">
+            <div style="font-size: 1.5rem; margin-bottom: 32px">💼</div>
+            <!-- Alaan -->
+            <div class="flex-row items-center justify-between company">
+                <div class="flex-row items-center">
+                    <a href="https://alaan.com" target="_blank">
+                        <img src="assets/logos/alaan.webp" alt="Alaan" class="company-logo">
+                    </a>
+                    <div class="flex-col justify-start">
+                        <div class="company-name">Alaan</div>
+                        <div class="company-role">Lead Mobile Engineer</div>
+                    </div>
+                </div>
+                <div class="flex-col items-end">
+                    <div class="company-duration">November 2024 - Present</div>
+                    <div class="company-location">UAE, Dubai (Hybrid)</div>
+                </div>
+            </div>
+
+            <!-- Merlin AI -->
+            <div class="flex-row items-center justify-between company">
+                <div class="flex-row items-center">
+                    <a href="https://getmerlin.in" target="_blank">
+                        <img src="assets/logos/merlin.webp" alt="Merlin AI" class="company-logo">
+                    </a>
+                    <div class="flex-col justify-start">
+                        <div class="company-name">Merlin AI</div>
+                        <div class="company-role">Founding Mobile Engineer</div>
+                    </div>
+                </div>
+                <div class="flex-col items-end">
+                    <div class="company-duration">November 2023 - October 2024</div>
+                    <div class="company-location">Bangalore, India</div>
+                </div>
+            </div>
+
+            <!-- Appyhigh -->
+            <div class="flex-row items-center justify-between company">
+                <div class="flex-row items-center">
+                    <a href="https://appyhigh.com" target="_blank">
+                        <img src="assets/logos/appyhigh.jpeg" alt="Appyhigh" class="company-logo">
+                    </a>
+                    <div class="flex-col justify-start">
+                        <div class="company-name">Appyhigh</div>
+                        <div class="company-role">Mobile Engineer</div>
+                    </div>
+                </div>
+                <div class="flex-col items-end">
+                    <div class="company-duration">June 2022 - October 2023</div>
+                    <div class="company-location">Remote</div>
+                </div>
+            </div>
+
+            <!-- Xmplar -->
+            <div class="flex-row items-center justify-between company">
+                <div class="flex-row items-center">
+                    <a href="https://xmplar.in" target="_blank">
+                        <img src="assets/logos/xmplar.jpeg" alt="Xmplar" class="company-logo">
+                    </a>
+                    <div class="flex-col justify-start">
+                        <div class="company-name">Xmplar</div>
+                        <div class="company-role">Intern</div>
+                    </div>
+                </div>
+                <div class="flex-col items-end">
+                    <div class="company-duration">August 2021 - May 2022</div>
+                    <div class="company-location">Remote</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer></footer>
-  </body>
+</body>
+
 </html>
